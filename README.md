@@ -2,6 +2,6 @@
 
 Create instance of TRCertificatePinningManager class and set it as delegate to NSURLSession.
 
-CertificatePinningManager *certificatePinningManager = [[CertificatePinningManager alloc] init];
+TRCertificatePinningManager *certificatePinningManager = [[TRCertificatePinningManager alloc] init];
 
 NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration delegate:certificatePinningManager delegateQueue:nil];
